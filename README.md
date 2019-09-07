@@ -28,8 +28,8 @@
 <p align="center"><img width="400" src="graph/uniform.png" /></p>
   
 2. Bernoulli distribution(discrete) [code](bernoulli.py)
-- Bernoulli distribution is not considered about prior probability P(X). Therefore, if we optimize to the maximum likelihood, we will be vulnerable to overfitting.
-- We use **binary cross entropy** to classify binary classification. It has same form like taking a negative log of the bernoulli distribution.
+   - Bernoulli distribution is not considered about prior probability P(X). Therefore, if we optimize to the maximum likelihood, we will be vulnerable to overfitting.
+   - We use **binary cross entropy** to classify binary classification. It has same form like taking a negative log of the bernoulli distribution.
 <p align="center"><img width="400" src="graph/bernoulli.png" /></p>
 
 3. Binomial distribution(discrete) [code](binomial.py)
